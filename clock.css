@@ -1,0 +1,281 @@
+body{
+	overflow-y: hidden;
+    background-color: rgb(136 64 191);
+    z-index: 1;
+    background-image: url(back.jpeg);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+}
+.bord{
+	/*border: 10px solid #ef00ff;*/
+	/*box-shadow: 5px 5px 5px 5px red;*/
+	height: 43vw;
+	width: 43vw;
+	position: relative;
+	margin-left:27%;
+	margin-right: 27%;
+	margin-top: 3%;
+	border-radius:50%;
+	text-align: center;
+	background-image: radial-gradient(orange,blue);
+    box-shadow : 0px 0px 20px 20px rgb(168, 50, 166);
+}
+#t1{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(30deg);
+	font-size: 50px;
+	border: none;
+}
+#t2{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(60deg);
+	font-size: 50px;
+	border: none;
+}
+#t3{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(90deg);
+	font-size: 50px;
+	border: none;
+}
+#t4{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(120deg);
+	font-size: 50px;
+	border: none;
+}
+#t5{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(150deg);
+	font-size: 50px;
+	border: none;
+}
+#t6{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(180deg);
+	font-size: 50px;
+	border: none;
+}
+#t7{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(210deg);
+	font-size: 50px;
+	border: none;
+}
+#t8{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(240deg);
+	font-size: 50px;
+	border: none;
+}
+#t9{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(270deg);
+	font-size: 50px;
+	border: none;
+}
+#t10{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(300deg);
+	font-size: 50px;
+	border: none;
+}
+#t11{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(330deg);
+	font-size: 50px;
+	border: none;
+}
+#t12{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	transform: rotate(360deg);
+	font-size: 50px;
+	border: none;
+}
+#one{
+	 transform: rotate(330deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+
+}
+#two{
+	 transform: rotate(300deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#three{
+	 transform: rotate(270deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#four{
+	 transform: rotate(240deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#five{
+	 transform: rotate(210deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#six{
+	 transform: rotate(180deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#seven{
+	 transform: rotate(150deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#eight{
+	 transform: rotate(120deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#nine{
+	 transform: rotate(90deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#ten{
+	 transform: rotate(60deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#eleven{
+	 transform: rotate(30deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#twelve{
+	 transform: rotate(0deg);
+	 margin-top: 0px;
+	 color: #ffe100;
+}
+#nid1{
+	position: absolute;
+	top:50%;
+	left:50%;
+	width: 0%;
+	height:35%;
+	z-index: 6;
+	transform-origin: top;
+	border: 1px solid red;
+}
+#nid2{
+	position: absolute;
+	top:50%;
+	left:50%;
+	width: 0%;
+	height:28%;
+	z-index: 4;
+	transform-origin: top;
+	border: 2px solid blue;
+}
+#nid3{
+	position: absolute;
+	top:50%;
+	left:50%;
+	width: 0%;
+	height:20%;
+	z-index: 2;
+	transform-origin: top;
+	border: 3px solid green;
+}
+#nid{
+	position: absolute;
+	top:48.5%;
+	left:49%;
+	width: 2%;
+	height: 2%;
+	background-color: rgb(136 64 191);
+	transform-origin: top;
+	border: 3px solid #adc9e6;
+	border-radius: 50%;
+	z-index: 7;
+}
+#digital{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 27%;
+	color: white;
+	font-size: 30px;
+	text-shadow: 0px 0px 5px red;
+}
+#name{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 36%;
+	color: white;
+	font-size: 30px;
+	text-shadow: 0px 0px 5px red;
+}
+#name{
+	animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+	 0%{     color: white; }
+    49%{    color: white; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: white;    }
+}
+#date{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 62%;
+	color: white;
+	font-size: 30px;
+	text-shadow: 0px 0px 5px red;
+}
+#mname{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 70%;
+	color: white;
+	font-size: 30px;
+	text-shadow: 0px 0px 5px red;
+}
+@media only screen and (max-height: 450px) {
+  body{
+     height: 35vw;
+     width: 35vw;
+  }
+}
